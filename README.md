@@ -24,5 +24,5 @@ TMP_DIR=$(mktemp -d)
 tar -xzvf "${DOWNLOADED_ARCHIVE}" -C "${TMP_DIR}"
 rsync -a "${TMP_DIR}/" "${DEBIAN_INSTALL_DIR}"
 rm -rf "${DOWNLOADED_ARCHIVE}" "${TMP_DIR}"
-echo "Debian environment updated successfully."
+echo "Linux mac OS installed successfully."
 for installation please copy all the text above to termux
