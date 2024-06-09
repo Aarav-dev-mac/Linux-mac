@@ -26,3 +26,19 @@ rsync -a "${TMP_DIR}/" "${DEBIAN_INSTALL_DIR}"
 rm -rf "${DOWNLOADED_ARCHIVE}" "${TMP_DIR}"
 echo "Linux mac OS installed successfully."
 for installation please copy all the text above to termux
+to start mac OS
+vncpasswd
+choose a password 
+type n when ask n or y
+tightvncserver :1
+to start vnc
+after do download a vnc viewer app and type localhost:1
+and connect to it you will be prompt to enter password the one that you had made by doing vncpasswd after entering you should start to load mac OS
+if not showing anything then then
+type 
+startxfce4
+even if it's show error message should be fixed
+ if you want to stop mac OS to these commands
+pkill Xtightvnc
+exit
+which should kill the server
